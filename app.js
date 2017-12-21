@@ -11,7 +11,7 @@ var stream;
 
 function run() {
 	stream = steem.api.streamOperations((err,op) => {
-		if(op[0] === 'claim_reward_balance' && op[1].account !== username){
+		if(op[0] === 'claim_reward_balance' && op[1].account === username){
 			var claimedSbd = (+op[1].reward_sbd.split(" ")[0]).toFixed(3);
 			var claimedVests = (+op[1].reward_vests.split(" ")[0]).toFixed(6);
 			if (claimedSbd > 0){
