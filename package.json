@@ -1,0 +1,17 @@
+{
+  "name": "steemfolio",
+  "version": "1.0.0",
+  "description": "Automatically add your claimed Steem rewards to your Blockfolio account",
+  "main": "app.js",
+  "scripts": {
+    "steemfolio": "node app.js"
+  },
+  "author": "netuoso",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-bittrex-api": "^0.8.1",
+    "request": "^2.83.0",
+    "steem": "^0.6.7"
+  }
+}
