@@ -16,6 +16,7 @@ Automatically add your claimed Steem rewards to your Blockfolio account
 - Configure your Username and Device ID in `config.js`
 	- `var username = "your_username_goes_here"`;
 	- `var deviceId = "YOUR:DEVICE_ID_GOES_HERE"`;
+![blockfolio-settings](https://i.imgur.com/TwJrDJA.png)
 - Run the application
   - `npm run steemfolio`
 
